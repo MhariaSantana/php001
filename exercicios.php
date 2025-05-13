@@ -13,7 +13,7 @@ echo "Olá mundo ";?>
  
  <?php  
  $salario = 2700.60; // decimal ou flot
- $anos = 21; // inteiro ou integer
+ $idade = 21; // inteiro ou integer
  $sobrenome = "Silva"; // string
  $animalDeEstimacao = false;// bool ou boolean 
  echo "<br>";
@@ -30,7 +30,18 @@ echo "Olá mundo ";?>
  else{
     echo "não pode jogar";
  }
+
+ $i =0;
+ while($i<10){
+    echo "<br>vambora";
+    $i = $i+1;
+ }
+ for($i =0; $i < 10; $i=$i+1){
+    echo "<br>vambora2";
+ }
  ?><br>
+
+
  
 
  
